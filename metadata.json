@@ -1,0 +1,6 @@
+{
+  "name": "VT-27 Analyzer",
+  "description": "Industrial vibration and rotation visualizer for the VT-27 device, with real-time plotting, measurement history, export options, and interactive device simulator.",
+  "requestFramePermissions": ["serial"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

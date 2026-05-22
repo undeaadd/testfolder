@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@utility animate-spin-slow {
+  animation: spin 8s linear infinite;
+}
+
+/* Custom industrial dark-cyber aesthetics for level sliders */
+input[type="range"] {
+  accent-color: #f59e0b; /* Amber accent */
+}
+
+/* Custom glass scrollbar for our serial console list */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(24, 24, 27, 0.5); /* zinc-900 / 50 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(113, 113, 122, 0.3); /* zinc-500 / 30 */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(113, 113, 122, 0.5);
+}
+
